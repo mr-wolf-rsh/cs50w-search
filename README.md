@@ -2,6 +2,8 @@
 
 A front-end for Google Search, Google Image Search, and Google Advanced Search.
 
+You can [click here](https://youtu.be/as8lFGnDHr4/) for watching the demo.
+
 This is [Search](https://cs50.harvard.edu/web/2020/projects/0/search/), which is one of [CS50W projects](https://cs50.harvard.edu/web/2020/projects/).
 Check up the rest of them! - [Projects for CS50W](https://github.com/stars/mr-wolf-rsh/lists/cs50w/)
 
