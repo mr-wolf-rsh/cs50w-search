@@ -1,0 +1,17 @@
+.form-container button {
+    color: #5F6368;
+}
+
+.form-container button:hover {
+    color: #000;
+}
+
+.input-container>input {
+    border-radius: 0 24px 24px 0;
+}
+
+.button-wrapper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

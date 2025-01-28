@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Google Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./advanced_search.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="link-container">
+            <a href="./index.html">
+                Google Search
+            </a>
+        </div>
+        <div class="logo-container">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                draggable="false">
+        </div>
+        <div class="title-container">
+            <label>Advanced Search</label>
+        </div>
+        <div class="separator"></div>
+        <div class="form-container">
+            <form action="https://www.google.com/search" method="GET" name="f">
+                <div class="form-wrapper mx-auto">
+                    <div>
+                        Find pages with...
+                    </div>
+                    <div> </div>
+                    <div>
+                        To do this in the search box.
+                    </div>
+                    <div>
+                        all these words:
+                    </div>
+                    <div>
+                        <input type="text" name="as_q">
+                    </div>
+                    <div>
+                        Type the important words: tri-colour rat terrier
+                    </div>
+                    <div>
+                        this exact word or phrase:
+                    </div>
+                    <div>
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div>
+                        Put exact words in quotes: "rat terrier"
+                    </div>
+                    <div>
+                        any of these words
+                    </div>
+                    <div>
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div>
+                        Type OR between all the words you want: miniature OR standard
+                    </div>
+                    <div>
+                        none of these words:
+                    </div>
+                    <div>
+                        <input type="text" name="as_eq">
+                    </div>
+                    <div>
+                        Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                    </div>
+                    <div></div>
+                    <div class="button-container" style="text-align: right;">
+                        <button type="submit" class="btn btn-primary btn-sm">
+                            Advanced Search
+                        </button>
+                    </div>
+                    <div></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

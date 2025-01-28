@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Google Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+    <div class="body-container">
+        <div class="link-container">
+            <a href="./images_search.html">
+                Google Images
+            </a>
+            <a href="./advanced_search.html">
+                Google Advanced Search
+            </a>
+        </div>
+        <div class="logo-container mx-auto">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                draggable="false">
+        </div>
+        <div class="form-container">
+            <form action="https://www.google.com/search" method="GET" name="f">
+                <div class="row">
+                    <div class="input-container mx-auto">
+                        <i class="tiny material-icons">search</i>
+                        <input type="text" name="q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="button-wrapper mx-auto">
+                        <button type="submit" class="btn btn-light">
+                            Google Search
+                        </button>
+                        <button type="submit" name="btnI" class="btn btn-light" value="I'm Feeling Lucky">
+                            I'm Feeling Lucky
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
